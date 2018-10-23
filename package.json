@@ -1,6 +1,6 @@
 {
     "name": "@citrix/d3-chart",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "The d3 charts library for Angular 1",
     "scripts": {
         "build": "grunt build",
