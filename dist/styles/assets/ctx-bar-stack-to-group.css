@@ -1,0 +1,20 @@
+.bar-stack-to-group-total {
+  fill: #fafafa;
+}
+.bar-stack-to-group-text-total {
+  fill: #39404c;
+  font-size: 10px;
+}
+.bar-stack-to-group-yAxis {
+  border-left: 1px solid #808080;
+}
+.bar-stack-to-group-stack-text {
+  fill: #fff;
+  font-size: 10px;
+  text-anchor: end;
+}
+.bar-stack-to-group-group-text {
+  fill: #39404c;
+  font-size: 10px;
+  text-anchor: end;
+}
