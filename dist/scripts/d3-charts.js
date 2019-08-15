@@ -10074,7 +10074,7 @@ angular.module('cwc.d3')
                                     return sourceData.leftStartPosition;
                                 })
                                 .attr('y', function (d, i) {
-                                    return index ? i * (groupBarHeight + barPadding + groupBarPadding) + (groupBarHeight + barPadding + 2) : i * (2 * groupBarHeight + barPadding + groupBarPadding) + 2;
+                                    return i * (2 * groupBarHeight + barPadding + groupBarPadding) + 2 + (index ? groupBarHeight + barPadding : 0);
                                 })
                                 .attr('width', 0)
                                 .attr('fill', sourceData.color(index))
